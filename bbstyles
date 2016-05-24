@@ -1,0 +1,8 @@
+/*Change default BB button font and icon color*/
+.fl-builder-content .fl-node-content a.fl-button span, .fl-builder-content .fl-node-content a.fl-button i {
+  color: #FFF;
+}
+/*Change default BB button background*/
+.fl-builder-content .fl-node-content.fl-module-content a.fl-button {
+  background: green;
+}
