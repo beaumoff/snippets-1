@@ -1,3 +1,4 @@
+<?php
 // Copyright Credit Shortcode
 // Usage: [credits oscredit="false" title="" link="" link_title=""]
 add_shortcode('credits', 'opensky_credits_function');
@@ -18,3 +19,4 @@ function opensky_credits_function( $atts, $content = null ) {
 	$creds .= wp_loginout('', false) . wp_register(' &middot; ', '', false) ;
 	return $creds;
 }
+?>
