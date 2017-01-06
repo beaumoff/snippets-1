@@ -1,6 +1,6 @@
 // Pulls HREF of designated links on images
 // IDs are #video1 - 4
-// Use http://digitalzoomstudio.net/vimeo-thumbnail-generator/ to get image for placeholder. Add 1280 to the end for the size.
+// Use http://digitalzoomstudio.net/vimeo-thumbnail-generator/ to get image for placeholder. Add 1280 or 640 to the end for the size.
 // Use URL embed type for BB image module.
 
 jQuery( function ( $ ) {
