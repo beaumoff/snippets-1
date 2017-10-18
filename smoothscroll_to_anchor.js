@@ -3,6 +3,10 @@ jQuery( document ).ready(function($) {
 
     var headerHeight = 127;
     var mobileBreakpoint = 960;
+    
+    if ($('body').hasClass('admin-bar')) { //compensate for admin bar height
+        headerHeight += 32;
+    }
 
     if ( window.location.hash ) scroll(0,0); // void some browsers issue
     setTimeout( function() { scroll(0,0); }, 1);
