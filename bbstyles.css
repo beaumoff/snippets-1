@@ -15,7 +15,8 @@ body .fl-builder-content a.fl-button:visited, button, input[type="button"], inpu
 .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
 	font-size: 16px;
 }
-body .fl-builder-content a.fl-button .fl-button-text {
+body .fl-builder-content a.fl-button *,
+body .fl-builder-content a.fl-button:visited * {
 	color: #fff;
 }
 body .fl-builder-content a.fl-button:hover,
@@ -23,7 +24,8 @@ button:focus, button:hover, input[type="button"]:focus, input[type="button"]:hov
 	background: #3F4F5E;
 	color: #fff;
 }
-body .fl-builder-content a.fl-button:hover .fl-button-text {
+body .fl-builder-content a.fl-button:focus *,
+body .fl-builder-content a.fl-button:hover * {
 	color: #fff;
 }
 /* END Button Code */
