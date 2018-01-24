@@ -11,7 +11,7 @@ function opensky_credits_function( $atts, $content = null ) {
       'link_title' => 'Open Sky Web Studio | Clean, Effective Websites',
       'linebreak' => 'true',
       ), $atts ) );
-	$creds = "<div id='credits'>Copyright &copy; " . date('Y') . " <a href='".get_option('home')."' title='".get_bloginfo('name')." | ".get_bloginfo('description')."'>".get_bloginfo('name')."</a>. All Rights Reserved. ";
+	$creds = "<span id='credits'>Copyright &copy; " . date('Y') . " <a href='".get_option('home')."' title='".get_bloginfo('name')." | ".get_bloginfo('description')."'>".get_bloginfo('name')."</a>. All Rights Reserved. ";
 	if (strtolower($oscredit) == "false")
 		$creds .= "<!--";
 	if (strtolower($linebreak) == "true")
@@ -19,7 +19,7 @@ function opensky_credits_function( $atts, $content = null ) {
 	$creds .= "Site Design: <a href='".$link."' title='".$link_title."' target='_blank'>".$title."</a> &middot; ";
 	if (strtolower($oscredit) == "false")
 		$creds .= "-->";
-	$creds .= wp_loginout('', false) . wp_register(' &middot; ', '', false) . '</div>';
+	$creds .= wp_loginout('', false) . wp_register(' &middot; ', '', false) . '</span>';
 	return $creds;
 }
 
