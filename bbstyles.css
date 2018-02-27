@@ -1,23 +1,24 @@
 /* Button Code and Gform Buttons */
 body .fl-builder-content a.fl-button,
-body .fl-builder-content a.fl-button:visited, button, input[type="button"], input[type="reset"], input[type="submit"], .button {
-	font-weight: 600;
+body .fl-builder-content a.fl-button:visited, body .fl-builder-content button, input[type="button"], input[type="reset"], input[type="submit"], .button {
+	font-weight: 400;
 	background-color: #86AF49;
 	border: none;
 	letter-spacing: 0.5px;
-	text-transform: uppercase;
-	font-size: 16px;
-	padding: 14px 28px;  
-	/*border-radius: 50px;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;*/
+	ext-transform: uppercase;
+	font-size: 14px;
+	padding: 12px 24px;  
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	/* Shadow Styles */
 	-webkit-box-shadow: inset 0 -3px 0 0 rgba(0,0,0,.1);
 	-moz-box-shadow: inset 0 -3px 0 0 rgba(0,0,0,.1);
 	box-shadow: inset 0 -3px 0 0 rgba(0,0,0,.1);
 }
+
 .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
-	font-size: 16px;
+	font-size: 14px !important;
 }
 body .fl-builder-content a.fl-button *,
 body .fl-builder-content a.fl-button:visited * {
