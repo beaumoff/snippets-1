@@ -16,10 +16,10 @@ function opensky_credits_function( $atts, $content = null ) {
 		$creds .= "<!--";
 	if (strtolower($linebreak) == "true")
 		$creds .= "<br/>";
-	$creds .= "Site Design: <a href='".$link."' title='".$link_title."' target='_blank'>".$title."</a> &middot; ";
+	$creds .= "Site Design: <a href='".$link."' title='".$link_title."' target='_blank'>".$title."</a> &bull; ";
 	if (strtolower($oscredit) == "false")
 		$creds .= "-->";
-	$creds .= wp_loginout('', false) . wp_register(' &middot; ', '', false) . '</span>';
+	$creds .= wp_loginout('', false) . wp_register(' &bull; ', '', false) . '</span>';
 	return $creds;
 }
 
