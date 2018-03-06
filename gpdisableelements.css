@@ -1,0 +1,13 @@
+/* https://generatepress.com/forums/topic/sections-set-to-disabled-by-default/ */
+.site-header,
+#site-navigation,
+.navigation-clone, 
+#mobile-header,
+#secondary-navigation,
+.generate-page-header,
+.page-header-image,
+.page-header-image-single,
+.entry-header,
+.site-footer {
+  display: none;
+}
