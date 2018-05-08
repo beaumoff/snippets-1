@@ -3,11 +3,11 @@
 .site-container a.fl-button,
 .site-container a.fl-button:visited,
 .site-container button:not(.hamburger),
-html input[type="button"],
-input[type="reset"],
-input[type="submit"],
-a.button,
-a.button:visited {
+.site-container input[type="button"],
+.site-container input[type="reset"],
+.site-container input[type="submit"],
+.site-container a.button,
+.site-container a.button:visited {
 	background: #86AF49;
 	color: #fff;
 	font-size: 14px;
@@ -42,14 +42,14 @@ a.button:visited {
 .site-container a.fl-button:hover,
 .site-container button:not(.hamburger):focus,
 .site-container button:not(.hamburger):hover,
-html input[type="button"]:focus,
-html input[type="button"]:hover,
-input[type="reset"]:focus,
-input[type="reset"]:hover,
-input[type="submit"]:focus,
-input[type="submit"]:hover,
-a.button:focus,
-a.button:hover {
+.site-container input[type="button"]:focus,
+.site-container input[type="button"]:hover,
+.site-container input[type="reset"]:focus,
+.site-container input[type="reset"]:hover,
+.site-container input[type="submit"]:focus,
+.site-container input[type="submit"]:hover,
+.site-container a.button:focus,
+.site-container a.button:hover {
 	background: #3F4F5E;
 	color: #BFC0C0;
 	border: none;
