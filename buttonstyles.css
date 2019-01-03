@@ -7,7 +7,9 @@
 .site-container input[type="reset"],
 .site-container input[type="submit"],
 .site-container a.button,
-.site-container a.button:visited {
+.site-container a.button:visited,
+.site-container .wp-block-button a,
+.site-container .wp-block-button a:visited {
 	background: #86AF49;
 	color: #fff;
 	font-size: 14px;
@@ -49,7 +51,9 @@
 .site-container input[type="submit"]:focus,
 .site-container input[type="submit"]:hover,
 .site-container a.button:focus,
-.site-container a.button:hover {
+.site-container a.button:hover,
+.site-container .wp-block-button a:focus,
+.site-container .wp-block-button a:hover {
 	background: #3F4F5E;
 	color: #BFC0C0;
 	border: none;
