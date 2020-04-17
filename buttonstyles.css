@@ -8,6 +8,8 @@
 .site-container input[type="submit"],
 .site-container a.button,
 .site-container a.button:visited,
+.site-container .button a,
+.site-container .button a:visited,
 .site-container .wp-block-button a,
 .site-container .wp-block-button a:visited {
 	background: #86AF49;
@@ -52,6 +54,8 @@
 .site-container input[type="submit"]:hover,
 .site-container a.button:focus,
 .site-container a.button:hover,
+.site-container .button a:focus,
+.site-container .button a:hover,
 .site-container .wp-block-button a:focus,
 .site-container .wp-block-button a:hover {
 	background: #3F4F5E;
